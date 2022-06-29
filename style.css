@@ -1,0 +1,169 @@
+*{
+    background-color: skins;
+}
+#btnAddFolder {
+    border-radius: 5px;
+    background-color: azure;
+    width: 150px;
+    margin-left: 10px;
+    padding: 20px;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-right: 2rem;
+    font-size:20px;
+
+    
+}
+/* .leftside{
+    /* border-right: 1px solid black;
+    /* height:100vh */
+    /* margin-left:-5px */ 
+/* }  */
+.ls{
+    
+    display: flex;
+}
+.fa-plus{
+    margin-right: 0.7rem;;
+    font-size:20px;
+    color: blue
+}
+
+#btnAddFolder:hover {
+    transform: scale(1.02);
+}
+
+#divContainer {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10rem;
+    margin-bottom: 50px;
+    margin-left:-5rem;
+}
+
+.folder {
+    /* background-color: teal; */
+  margin-top:50rem;
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+    margin: 10px;
+}
+.icon{
+    height: 7rem;
+    width: 7rem;
+}
+
+.folder [action]{
+    /* text-decoration: underline; */
+    cursor: pointer;
+  
+    justify-content: space-between;
+}
+
+div[purpose=name]{
+  margin-left: 0.8rem;
+  
+    font-size:1.2rem;
+    
+}
+.mainBox{
+    display: none;
+    background-color:white;
+    height: 180px;
+    width: 300px;
+    margin-left: 40vw;
+    font-size:50px;
+    border: 3px solid black;
+    margin-bottom:40vh;
+    z-index: 50000;
+
+
+}
+.tboxex{
+    border: 3px solid blue;
+    margin-left:55px;
+}
+.blur {
+    /* //Make sure this color has an opacity of less than 1 */
+    background: rgba(255, 255, 255, 0.2); 
+    /* // This be the blur */
+    backdrop-filter: blur(2px); 
+    /* height: 100vh;
+    width: 50%; */
+    background: rgba(76, 175, 80, 0.9) /* Green background with 30% opacity */
+
+  }
+  .up{
+    width: 300px;
+      font-size:25px;
+      margin-left:65px;
+      margin-top: 2.5rem;
+      /* border-bottom: 1px solid black; */
+      
+  }
+  .down{
+      margin-top: 1rem;
+      margin-left:1px;
+  }
+  #divBreadCrumb {
+    border: 1px solid black;
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    height:3rem
+}
+
+.path {
+    cursor: pointer;
+    background-color: gray;
+    color: black;
+    padding: 10px;
+    border-right: 3px solid black;
+}
+
+.path:hover{
+    background-color: white;
+    color: blue;
+    text-decoration: underline;
+}
+.task{
+    font-size: 20px;
+    color: blue;
+   
+    display:flex;
+    margin-top:10px;
+    justify-content:space-evenly
+}
+.task1{
+    cursor: pointer;
+    margin-left: -20px;
+
+}
+.task2{
+    cursor: pointer;
+}
+.myicon{
+    opacity: 0.5;
+} 
+.drive{
+    font-weight: bold;
+    font-size:20px;
+    margin-bottom:20px;
+    margin-left: 10px;
+
+}
+.search-box{
+    display:flex;
+}
+.searchbox{
+ 
+    width: 1000px;
+    height: 40px;
+    
+}
+.fa-search{
+    margin-left:500px;
+    font-size:25px;
+}

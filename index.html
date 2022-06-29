@@ -1,0 +1,62 @@
+<html>
+
+<head>
+    <title>MY Drive</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+</head>
+
+<body>
+    <div class = "drive">
+        Drive
+    </div>
+   
+    <div class = "search-box">
+        <i class="far fa-search"></i>
+        <textarea class=" searchbox " type="text" placeholder="Search"></textarea> </div>
+    </div>
+    <div class="blurred ls ">
+        
+        <div class="leftside ">
+          
+            <button id="btnAddFolder">  <i class="fas fa-plus"></i> New</button>
+
+        </div>
+        
+        <div id=divBreadCrumb>
+            <a class="path">Root</a>
+        </div>
+        <div id="divContainer"></div>
+    </div>
+
+    <div class="box  mainBox">
+        <div class="up box">
+             <bold>  New Folder</bold>
+        </div>
+        <div class="down box">
+            <textarea class=" task_input tboxex " type="text" placeholder="Enter Folder's Name..."></textarea> </div>
+        <div class="task">
+            <div class="task1"><u>cancel</u> </div>
+            <div class="task2"> <u>create</u> </div>
+        </div>
+    </div>
+
+    </div>
+
+    <template id="pageTemplates">
+        <div class="folder myone">
+            <img class="icon" src="yfolder.png">
+            <div purpose="name"></div>
+            <span action="edit"><i class=""></i></span>
+            <span action="delete"><i class=""></i></span>
+        </div>
+        <a class="path"></a>
+    </template>
+    </div>
+
+
+    <script type="text/javascript" src="main.js"></script>
+</body>
+
+</html>
